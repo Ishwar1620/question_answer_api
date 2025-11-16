@@ -14,9 +14,9 @@ pip install -r requirements.txt
 DATABASE_URL=postgresql+asyncpg://user:{pass_word}@localhost:5432/dbname
 DATABASE_PASS=your_password
 PINECONE_API_KEY=your_pinecone_key
-PINECONE_INDEX_NAME=qa_hybrid
-PINECONE_CLOUD=aws
-PINECONE_REGION=us-east1
+PINECONE_INDEX_NAME=index_name
+PINECONE_CLOUD=cloud
+PINECONE_REGION=us region
 GEMINI_API_KEY=your_gemini_key
 ```
 
