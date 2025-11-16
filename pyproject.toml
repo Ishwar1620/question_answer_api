@@ -14,7 +14,6 @@ dependencies = [
     "pinecone-text>=0.11.0",
     "sentence-transformers>=5.1.2",
     "google-generativeai>=0.8.5",
-    "google-genai>=1.50.0",
     "langchain>=1.0.5",
     "langchain-core>=1.0.4",
     "langchain-community>=0.4.1",
@@ -28,8 +27,6 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.4.0",
-    "pytest-asyncio>=0.21.0",
     "httpx>=0.25.0",
 ]
 
@@ -44,8 +41,4 @@ packages = ["app", "database", "src", "settings"]
 line-length = 100
 target-version = ['py310']
 
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-python_files = "test_*.py"
-python_functions = "test_*"
 
