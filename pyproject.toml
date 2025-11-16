@@ -11,7 +11,6 @@ dependencies = [
     "asyncpg>=0.30.0",
     "pinecone>=7.3.0",
     "pinecone-text>=0.11.0",
-    "sentence-transformers>=5.1.2",
     "google-generativeai>=0.8.5",
     "python-dotenv>=1.0.0",
     "pydantic>=2.12.4",
