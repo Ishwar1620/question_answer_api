@@ -1,6 +1,6 @@
 # Question-Answer API
 
-Simple production-ready Question-Answer API with vector search and LLM generation.
+Simple Question-Answer API.
 
 ## Setup
 
