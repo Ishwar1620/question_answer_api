@@ -9,6 +9,7 @@ asyncpg>=0.30.0
 # Vector Store & Embeddings
 pinecone>=7.3.0
 pinecone-text>=0.11.0
+sentence-transformers>=5.1.2
 
 # LLM
 google-generativeai>=0.8.5

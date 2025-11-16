@@ -12,6 +12,7 @@ dependencies = [
     "pinecone>=7.3.0",
     "pinecone-text>=0.11.0",
     "google-generativeai>=0.8.5",
+    sentence-transformers>=5.1.2,
     "python-dotenv>=1.0.0",
     "pydantic>=2.12.4",
     "anyio>=4.0.0",
@@ -19,4 +20,19 @@ dependencies = [
     "requests>=2.32.5",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "httpx>=0.25.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app", "database", "src", "settings"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
 
