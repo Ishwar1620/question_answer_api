@@ -46,3 +46,7 @@ curl -X POST "http://localhost:8000/ask" \
   "answer": "Based on the available data..."
 }
 ```
+## Application live on
+```bash 
+https://qaapiservice-fag4dnfkakg2hnad.canadacentral-01.azurewebsites.net/docs
+```
