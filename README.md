@@ -47,6 +47,6 @@ curl -X POST "http://localhost:8000/ask" \
 }
 ```
 ## Application live on
-```bash 
-https://qaapiservice-fag4dnfkakg2hnad.canadacentral-01.azurewebsites.net/docs
-```
+
+(https://qaapiservice-fag4dnfkakg2hnad.canadacentral-01.azurewebsites.net/docs)
+
